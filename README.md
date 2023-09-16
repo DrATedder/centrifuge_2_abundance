@@ -1,4 +1,4 @@
-# centriguge_2_abundance
+# centrifuge_2_abundance
 A simple Java-based GUI (python backend) to take a directory of centrifugeReport.txt (metagenomic analysis) and produce 'abundance' files based on user-defined thresholds.
 
 [Centrifuge](https://github.com/DaehwanKimLab/centrifuge "Link to Centrifuge github repository") produces OTU taxonomic classifications based on read similarity. It also provides you with a number of reads which map to each OTU allowing you to calculate abundance, and make decisions about what threshold level of abundance should an OTU be considered 'meaningful' to your particular project. The centrifuge_2_abundance App allows the user to specify a directory containing cetrifugeReport.txt outputs, and specify an abundance threshold (i.e. 0.01 or 0.1 etc) to create 'abundance' files. These files will consider only 'genus' taxRank level OTUs and below (inc. 'species', 'subspecies' and 'leaf'). Output files are in two column csv format, but with a txt extension. 
