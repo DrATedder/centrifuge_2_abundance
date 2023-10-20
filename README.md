@@ -5,12 +5,13 @@ A simple Java-based GUI (python backend) to take a directory of centrifugeReport
 
 ## Appearance
 
-![Screenshot](https://github.com/DrATedder/centriguge_2_abundance/blob/470ce5c1c30d0f3647da46a5d4a0df0f7f354eac/centrifuge_2_abundance.png "Screenshot of centrifuge_2_abundance GUI")
+![Screenshot](https://github.com/DrATedder/centrifuge_2_abundance/blob/b2f039953626cb12bffe95574cd3c580059aa5a7/Centrifuge_2_abundance.png "Screenshot of centrifuge_2_abundance GUI")
 
 ## Features
 
 - Browse to select the input directory.
 - Define an abundance threshold.
+- Choose 'genus' or 'species' level output
 - Generate abundance based on the selected threshold.
 - Option to start again or exit the application.
   
@@ -28,7 +29,7 @@ A simple Java-based GUI (python backend) to take a directory of centrifugeReport
 5. Click the "Generate Abundance" button to run the conversion.
 6. Messages and output will be displayed in the application.
 
-### Example output file ###
+### Example output file ('Species' level) ###
 
 |  OTU   |  UniqR   | Abundance   |
 | --- | --- | --- |
